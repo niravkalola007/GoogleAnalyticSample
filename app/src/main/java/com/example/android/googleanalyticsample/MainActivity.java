@@ -17,7 +17,6 @@ public class MainActivity extends ActionBarActivity {
         //Get a Tracker (should auto-report)
         ((MyApplication) getApplication()).getTracker(MyApplication.TrackerName.APP_TRACKER);
 
-
     }
 
     @Override
